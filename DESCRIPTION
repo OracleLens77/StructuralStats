@@ -1,0 +1,17 @@
+Package: StructuralStats
+Title: Tools for Structural Statistical Analysis
+Version: 0.1.0
+Authors@R: person("Vitaliy", "Lavrukhin", email = "238909@edu.fa.ru", role = c("aut", "cre"))
+Description: Implements statistical methods for structural analysis based on
+    Gatev, Kazinets, Salai, and Ryabtsev, along with adaptive time-series
+    forecasting and rank-correlation methods discussed in Afanasyev (2019)
+    and Persteneva (2012). Includes coefficients of absolute and relative
+    structural shifts, the Gini coefficient, Laspeyres/Paasche/Fisher price
+    indices, exponential smoothing, and Spearman/Kendall correlation helpers.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
